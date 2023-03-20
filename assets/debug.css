@@ -2,6 +2,8 @@
 :root {
     --navblue: #0084fd;
     --jumbocard: #a6e6f3;
+    --jumbotitle: #22a5f2;
+    --jumbotext: #649596;
 }
 
 body {
@@ -65,6 +67,7 @@ nav button {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 3rem;
 }
 
 .jumbo .card {
@@ -78,4 +81,17 @@ nav button {
 
 .jumbo .card-s {
     width: calc(100% / 3);
+}
+
+.jumbo h3 {
+    color: var(--jumbotitle);
+}
+
+.jumbo .card-text {
+    color: var(--jumbotext);
+}
+
+.jumbo button {
+    color: white;
+    background-color: var(--jumbotitle);
 }
