@@ -9,7 +9,7 @@ body {
     height: auto;
 }
 
-.nav {
+nav {
     height: 75px;
     width: 100%;
     background-color: var(--navblue);
