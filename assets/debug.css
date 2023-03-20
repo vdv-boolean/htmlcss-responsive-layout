@@ -110,3 +110,12 @@ section {
 section:nth-child(odd) {
     background-color: var(--purplesection);
 }
+
+/* Planning Section */
+
+.planning .container {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+
+}
