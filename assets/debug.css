@@ -1,6 +1,7 @@
 /* Color palette */
 :root {
     --navblue: #0084fd;
+    --jumbocard: #a6e6f3;
 }
 
 /* Site Header */
@@ -26,4 +27,19 @@ nav {
     height: 100%;
     background-color: salmon;
     margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jumbo .card {
+    background-color: var(--jumbocard);
+    height: 345px;
+}
+
+.jumbo .card-l {
+    width: calc(100% / 3 * 2);
+}
+
+.jumbo .card-s {
+    width: calc(100% / 3);
 }
