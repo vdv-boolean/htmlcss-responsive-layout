@@ -1,0 +1,16 @@
+/* Color palette */
+:root {
+    --navblue: #0084fd;
+}
+
+/* Site Header */
+body {
+    width: 1920px;
+    height: auto;
+}
+
+.nav {
+    height: 75px;
+    width: 100%;
+    background-color: var(--navblue);
+}
