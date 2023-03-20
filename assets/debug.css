@@ -4,16 +4,42 @@
     --jumbocard: #a6e6f3;
 }
 
-/* Site Header */
 body {
     width: 1920px;
     height: auto;
 }
 
+/************************************************
+Site Header 
+************************************************/
+
+/* Navbar */
+
 nav {
     height: 75px;
     width: 100%;
     background-color: var(--navblue);
+}
+
+nav ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav li {
+    height: 100%;
+}
+
+nav a {
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .jumbo {
