@@ -4,6 +4,7 @@
     --jumbocard: #a6e6f3;
     --jumbotitle: #22a5f2;
     --jumbotext: #649596;
+    --purplesection: #9792e4;
 }
 
 body {
@@ -94,4 +95,18 @@ nav button {
 .jumbo button {
     color: white;
     background-color: var(--jumbotitle);
+}
+
+
+/************************************************
+Site Main 
+************************************************/
+
+section {
+    height: 1000px;
+    width: 100%;
+}
+
+section:nth-child(odd) {
+    background-color: var(--purplesection);
 }
