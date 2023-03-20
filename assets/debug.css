@@ -8,6 +8,7 @@ body {
     width: 1920px;
     height: auto;
 }
+ /* TO DO: change button style */
 
 /************************************************
 Site Header 
@@ -37,6 +38,15 @@ nav a {
     height: 100%;
     color: white;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav button {
+    height: 100%;
+    color: black;
+    background-color: white;
     display: flex;
     align-items: center;
     flex-direction: row;
