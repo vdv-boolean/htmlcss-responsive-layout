@@ -290,6 +290,51 @@ section:nth-child(odd) {
     margin-bottom: 1rem;
 }
 
+/* About Us Section */
+
+.about-us .container {
+    width: 1000px;
+    height: auto;
+    margin: 2rem auto 2rem;
+    display: flex;
+}
+
+.about-us .left {
+    flex: 0 0 66%;
+    padding-inline: 1rem;
+}
+
+.about-us h1 {
+    font-size: 2.5rem;
+    color: var(--purplesection);
+    margin-bottom: 2rem;
+}
+
+.about-us p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.about-us .right {
+    flex: 0 0 7%;
+    padding-inline: 1rem;
+    position: relative;
+}
+
+.about-us img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.about-us i {
+    position: absolute;
+    top: 0;
+    left: calc(150px - 1.5rem);
+    font-size: 3rem;
+    color: var(--purplesection);
+}
+
 /* Get Started Section */
 
 .get-started .container {
