@@ -151,7 +151,23 @@ section:nth-child(odd) {
 /* Planning Section */
 
 .planning .container {
-    width: 1000px;
-    height: 100%;
+    width: 900px;
+    height: auto;
     margin: auto;
+    display: flex;
+}
+
+.planning .container-left,
+.planning .container-right {
+    flex: 0 0 50%;
+    height: auto;
+}
+
+.planning .container-right {
+    background-color: white;
+    border-radius: 3rem;
+}
+
+.planning img {
+    width: 100%;
 }
