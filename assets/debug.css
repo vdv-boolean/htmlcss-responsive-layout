@@ -8,7 +8,7 @@
 }
 
 body {
-    width: 1920px;
+    width: 100%;
     height: auto;
     margin: auto;
 }
@@ -26,16 +26,31 @@ nav {
     background-color: var(--navblue);
 }
 
+nav .navbar {
+    height: 100%;
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    height: 50%;
+}
+
 nav ul {
     height: 100%;
     list-style: none;
     display: flex;
     align-items: center;
     flex-direction: row;
+
 }
 
 nav li {
     height: 100%;
+    padding-left: 1rem;
 }
 
 nav a {
@@ -47,13 +62,12 @@ nav a {
     flex-direction: row;
 }
 
-nav button {
-    height: 100%;
+nav .btn {
+    height: 50%;
     color: black;
     background-color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+    padding-inline: 1rem;
+    border-radius: 2rem;
 }
 
 .jumbo {
