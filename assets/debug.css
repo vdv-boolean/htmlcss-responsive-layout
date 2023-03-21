@@ -173,6 +173,72 @@ section:nth-child(odd) {
     width: 100%;
 }
 
+/* Testimonials Section */
+
+.testimonials .container {
+    height: auto;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.testimonials h1 {
+    font-size: 0.75rem;
+    padding-bottom: 1.5rem;
+    font-weight: 200;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    color: var(--purplesection);
+    padding-bottom: 1.5rem;
+}
+
+.testimonials p {
+    padding-bottom: 1.5rem;
+}
+
+.testimonials .card {
+    height:200px;
+    width: 100%;
+    background-color: var(--purplesection);
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+ .testimonials img {
+  width: 150px;
+  height: 150px;
+  min-width: 0;
+  border-radius: 100%;
+  object-fit: cover;
+} 
+
+.testimonials .left {
+    flex: 0 0 20%;
+}
+
+.testimonials .right {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 80%;
+    text-align: left;
+    padding-inline: 2rem;
+    color: white;
+}
+
+.testimonials cite {
+    font-style: normal;
+}
+
+.testimonials .author {
+    margin-top: 1rem;
+    font-weight: 600;
+}
 
 /* Get Started Section */
 
