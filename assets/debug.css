@@ -10,6 +10,7 @@
 body {
     width: 1920px;
     height: auto;
+    margin: auto;
 }
  /* TO DO: change button style */
 
@@ -97,6 +98,9 @@ nav button {
     background-color: var(--jumbotitle);
 }
 
+.jumbo img {
+    min-width: 0;
+}
 
 /************************************************
 Site Main 
@@ -117,5 +121,4 @@ section:nth-child(odd) {
     width: 1000px;
     height: 100%;
     margin: auto;
-    
 }
