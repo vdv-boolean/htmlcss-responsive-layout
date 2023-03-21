@@ -5,6 +5,7 @@
     --jumbotitle: #0084fd;
     --jumbotext: #5a6e7f;
     --purplesection: #9792e4;
+    --footerbg: #333333;
 }
 
 body {
@@ -170,4 +171,32 @@ section:nth-child(odd) {
 
 .planning img {
     width: 100%;
+}
+
+
+/************************************************
+Site Footer 
+************************************************/
+
+footer {
+    background-color: var(--footerbg);
+}
+
+footer .container {
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+footer .upper-footer {
+    margin-bottom: 4rem;
+}
+
+footer .highlight {
+    color: var(--purplesection);
+    text-decoration: underline;
 }
