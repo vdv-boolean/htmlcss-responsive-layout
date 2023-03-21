@@ -1,9 +1,9 @@
 /* Color palette */
 :root {
     --navblue: #0084fd;
-    --jumbocard: #a6e6f3;
-    --jumbotitle: #22a5f2;
-    --jumbotext: #649596;
+    --jumbocard: #b5ddff;
+    --jumbotitle: #0084fd;
+    --jumbotext: #5a6e7f;
     --purplesection: #9792e4;
 }
 
@@ -71,7 +71,7 @@ nav .btn {
 }
 
 .jumbo {
-    height: 875px;
+    height: auto;
     width: 100%;
     background-color: white;
 }
@@ -79,24 +79,43 @@ nav .btn {
 .jumbo .content {
     width: 1140px;
     height: 100%;
-    background-color: salmon;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     padding-top: 3rem;
+    padding-bottom: 3rem;
+    gap: 1rem;
 }
 
 .jumbo .card {
     background-color: var(--jumbocard);
     height: 345px;
+    border-radius:1rem;
 }
 
 .jumbo .card-l {
-    width: calc(100% / 3 * 2);
+    max-width: calc((100% - 1rem)/ 3 * 2);
+    display: flex;
 }
 
 .jumbo .card-s {
-    width: calc(100% / 3);
+    max-width: calc((100% - 2rem) / 3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-l .container {
+flex: 0 0 50%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.card-s i {
+    color: var(--jumbotitle);
+    font-size: 4rem;
 }
 
 .jumbo h3 {
