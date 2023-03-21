@@ -240,6 +240,56 @@ section:nth-child(odd) {
     font-weight: 600;
 }
 
+/* Features Section */
+
+.features .container {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.features .cards {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.features .card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: auto;
+    width: calc((100% - 2rem) / 3);
+    padding: 1rem 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.features h1 {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.features .number {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--purplesection)
+}
+
+.features .feature {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--purplesection);
+    margin-bottom: 1rem;
+}
+
+.features p {
+    color: black;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
 /* Get Started Section */
 
 .get-started .container {
